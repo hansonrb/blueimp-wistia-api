@@ -28,6 +28,7 @@ $ npm start
 
 ```
 $ npm run heroku-start
+// http://localhost:3000/
 ```
 
 ## More
