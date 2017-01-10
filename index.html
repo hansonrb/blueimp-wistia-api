@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <link rel="stylesheet" href="./public/assets/css/library.css">
+</head>
+<body ng-app="app">
+  <div ng-controller="MainCtrl as ctrl">
+    <bwa-upload config="ctrl.config"></bwa-upload>
+  </div>
+  <script type="text/javascript" src="./public/assets/js/library.js"></script>
+  <script type="text/javascript" src="./public/assets/js/script.js"></script>
+  <script type="text/javascript">
+  angular.module('app', ['blueimp-wistia-api']).controller('MainCtrl', function MainCtrl() {
+    this.config = {
+      'api_password': 'b8eae84583dd59d8e027995b3834ac4e31a7c272bfcf54485c51ed2c28f2400f'
+    };
+  });
+  </script>
+</body>
+</html>
