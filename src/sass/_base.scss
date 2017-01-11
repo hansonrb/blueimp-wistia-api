@@ -27,10 +27,11 @@ body { font-family: 'Roboto', sans-serif; font-size: $font-size; }
     padding: $margin;
     &-vrt { padding-top: $margin; padding-bottom: $margin; }
     &-hrz  { padding-right: $margin; padding-left: $margin; }
-    &-no  { padding: 0; }
+    &-left-none  { padding-left: 0; }
+    &-none  { padding: 0; }
   }
   &-margin {
-    &-no  { margin: 0; }
+    &-none  { margin: 0; }
   }
   &-divider {
     border-bottom: solid 1px #bdc3c7;
