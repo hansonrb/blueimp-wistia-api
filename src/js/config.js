@@ -2,6 +2,7 @@ app.constant('APP', {
   'API_URL': 'https://upload.wistia.com/',
   'BFU_ELEMENT': '#fileupload',
   'BFU_OPTIONS': {
+    maxNumberOfFiles: 5,
     maxFileSize: (90 * 1000000),
     acceptFileTypes: /(\.|\/)(avi|mov|qt|mp?g|mp4|wmv|divx)$/i,
     formData: {
