@@ -78,6 +78,7 @@ body { font-family: 'Roboto', sans-serif; font-size: $font-size; }
     $size: 32px;
     width: $size;
     height: $size;
+    padding: $margin * 3;
     @include border-radius(0);
     @include box-shadow(none);
     &.btn-success {
