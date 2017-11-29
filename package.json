@@ -1,5 +1,5 @@
 {
-  "name": "blueimp-wistia-api",
+  "name": "angular-blueimp-wistia-uploade",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -30,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rochapablo/blueimp-wistia-api"
+    "url": "https://github.com/hansonrb/blueimp-wistia-api"
   }
 }
