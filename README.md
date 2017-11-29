@@ -7,6 +7,7 @@
 ## Description
 
 Integration of AngularJS 1, BlueImp jQuery file uploader, Wistia API
+
 Forked from https://github.com/rochapablo/blueimp-wistia-api and made enhancement for handling Wistia response
 
 ## Setup
