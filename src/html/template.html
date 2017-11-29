@@ -24,15 +24,15 @@
     </div>
     <div class="row files">
       <div data-ng-repeat="file in queue" data-ng-class="{'processing': file.$processing()}" class="col-xs-12 file">
-        <div data-ng-switch data-on="!!file.thumbnailUrl" class="col-xs-4 core-padding-left-none">
-          <div class="preview flat" data-ng-switch-when="true">
-            <a data-ng-href="{{file.url}}" title="{{file.name}}" download="{{file.name}}"><img data-ng-src="{{file.thumbnailUrl}}" alt=""></a>
+        <div data-ng-switch data-on="!!file.thumbnail.url" class="col-xs-4 core-padding-left-none">
+          <div class="" data-ng-switch-when="true">
+            <iframe ng-src="{{ embedUrl(file) | trust }}" style='border: none; outline: none; appearance: none; margin: 0; padding: 0;'></iframe>
           </div>
           <div class="preview flat" data-ng-switch-default data-file-upload-preview="file"></div>
         </div>
         <div class="col-xs-8 core-padding-none">
           <div data-ng-switch data-on="!!file.url" class="row">
-            <span data-ng-switch-when="true" data-ng-switch data-on="!!file.thumbnailUrl" class="col-xs-12">
+            <span data-ng-switch-when="true" data-ng-switch data-on="!!file.thumbnail.url" class="col-xs-12">
               <a data-ng-switch-when="true" data-ng-href="{{file.url}}" title="{{file.name}}" download="{{file.name}}" data-gallery>{{file.name}}</a>
               <a data-ng-switch-default data-ng-href="{{file.url}}" title="{{file.name}}" download="{{file.name}}">{{file.name}}</a>
             </span>

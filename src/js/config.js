@@ -1,5 +1,6 @@
 app.constant('APP', {
   'API_URL': 'https://upload.wistia.com/',
+  // 'API_URL': 'http://localhost:8888/jQuery-File-Upload/server/php/',
   'BFU_ELEMENT': '#fileupload',
   'BFU_OPTIONS': {
     maxNumberOfFiles: 5,
