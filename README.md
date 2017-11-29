@@ -2,15 +2,14 @@
 
 ## Demo
 
-[https://blueimp-wistia-api.herokuapp.com/](https://blueimp-wistia-api.herokuapp.com/)
+[https://angular-blueimp-wistia-uploade.herokuapp.com/](https://angular-blueimp-wistia-uploade.herokuapp.com/)
 
 ## Description
 
-This is a AngularJS exam where the idea is communicate the *wistia-api* by sending them videos.
+Integration of AngularJS 1, BlueImp jQuery file uploader, Wistia API
+Forked from https://github.com/rochapablo/blueimp-wistia-api and made enhancement for handling Wistia response
 
 ## Setup
-
-If you want install...
 
 ```
 $ npm install
@@ -22,13 +21,6 @@ You can run...
 
 ```
 $ npm start
-```
-
-### Heroku (simulation)
-
-```
-$ npm run heroku-start
-// http://localhost:3000/
 ```
 
 ## More
