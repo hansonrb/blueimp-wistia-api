@@ -17,6 +17,6 @@ app.controller('UploadCtrl', function (APP, $scope, $timeout) {
     if ( !file.hashed_id ) {
         return '';
     }
-    return 'http://fast.wistia.com/embed/iframe/' + file.hashed_id + '?version=v1&controlsVisibleOnLoad=true&playerColor=aae3d8';
+    return 'https://fast.wistia.com/embed/iframe/' + file.hashed_id + '?version=v1&controlsVisibleOnLoad=true&playerColor=aae3d8';
   }
 });
